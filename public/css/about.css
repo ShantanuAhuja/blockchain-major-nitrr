@@ -1,0 +1,63 @@
+
+        .navbar{
+            background-color: black;
+            border-radius: 30px;
+            align-items: center;
+            margin: 1px 1px 1px 1px;
+
+        }
+
+        .navbar h1{
+            text-transform: uppercase;
+            font-size: 3em;
+            float: right;
+            color: white;
+
+            margin: -141px 251px;
+            text-align: center;
+
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+        .navbar img{
+            width:150px;
+            height:150px;
+            padding: 3px 17px;
+
+        }
+
+.rahul{
+    background-color:#c6d5f5b5;;
+    flex: 1;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+#main {
+  width: 1400px;
+  height: 350px;
+  border: 1px solid black;
+  display: flex;
+  border-radius: 10px;
+
+}
+.rahulpic{
+    align-items: center;
+    border-radius: 70px;
+    margin-top:  5px;
+    width:120px;
+    height:120px;
+}
+
+body {
+    background-color: #123c69;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 120% ;
+}
+.common{
+    color: cornsilk;
+}

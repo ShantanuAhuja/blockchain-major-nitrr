@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/navbar.css">
+    	<link rel="stylesheet" href="./css/signup.css">
+
+	<title>Document</title>
+</head>
+<body>
+
+	<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+
+<body>
+ <!--navbar-->
+	<div class="page-wrapper">
+ <div class="nav-wrapper">
+
+  <nav class="navbar">
+    <h5 class="heading">E- Government Blockchain Portal</h5>
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <ul class="nav no-search">
+      <li class="nav-item "><h3 class="loginname">Welcome!</h3><h3 class="naming"> {{name}}</h3>   </li>
+      <li class="nav-item"><a href="/register"></a></li>
+      <li class="nav-item"><a href="/logout">Logout</a></li>
+
+      <input class="search-input" type="text" placeholder="Search..">
+    </ul>
+  </nav>
+  </div>
+  <div class="container">
+    <div class="title"> Real Estate Registration</div>
+    <div class="content">
+      <form action="/realestate" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details"> Owner Full Name</span>
+            <input type="text" placeholder="Enter Full name "  required name="ownername">
+          </div>
+          <div class="input-box">
+            <span class="details"> Location of Property</span>
+            <input type="text" placeholder="Town, City, State,Pincode" required  name="location">
+          </div>
+          <div class="input-box">
+            <span class="details">Owner Contact Number</span>
+            <input type="number"  minlength="12" placeholder="Enter your Contact Number" required name="contactno">
+          </div>
+          <div class="input-box">
+            <span class="details">Area(In sq. feet)</span>
+            <input type="number" placeholder="Enter the Area" required  name="area">
+          </div>
+          <div class="input-box">
+            <span class="details">Price of Property(In Lakhs)</span>
+            <input type="number" placeholder="Enter the price" required  name="pprice">
+          </div>
+          <div class="input-box">
+            <span class="details">Possession Date</span>
+            <input type="date" placeholder="Select Possession Date" required  name="possessiondate">
+          </div>
+
+        </div>
+
+
+
+		<p class="proof"> Property Image 1  (jpg/png)</p>
+		<input type="file" id="myFile" name="propimg1" accept="image/jpg,image/png">
+
+		<p class="proof">Property Image 2 (jpg/png) </p>
+		<input type="file" id="myFile" name="propimg2" accept="image/jpg,image/png">
+
+        <div class="button">
+          <input type="submit" value="Submit Details">
+
+        </div>
+  </form>
+    </div>
+  </div>
+
+</body>
+</html>
+
+</body>
+</html>
+
